@@ -5,10 +5,10 @@
 > *"데이터 파이프라인의 안정성부터 AI 모델의 현장 최적화까지, 엔드투엔드로 문제를 해결합니다."*
 
 <p align="center">
-  <a href="https://choiyeongdong-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Live_Demo-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/%EC%98%81%EB%8F%99-%EC%B5%9C-29b98a392/"><img src="https://img.shields.io/badge/LinkedIn-Yeongdong_Choi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://github.com/pr0d0ng"><img src="https://img.shields.io/badge/GitHub-pr0d0ng-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="mailto:cyd0303@g.skku.edu"><img src="https://img.shields.io/badge/Email-cyd0303@g.skku.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://choiyeongdong-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Live_Demo-38BDF8?style=flat-square&logo=googlechrome&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/%EC%98%81%EB%8F%99-%EC%B5%9C-29b98a392/"><img src="https://img.shields.io/badge/LinkedIn-Yeongdong_Choi-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/pr0d0ng"><img src="https://img.shields.io/badge/GitHub-pr0d0ng-181717?style=flat-square&logo=github&logoColor=white"/></a>
+  <a href="mailto:cyd0303@g.skku.edu"><img src="https://img.shields.io/badge/Email-cyd0303@g.skku.edu-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
 </p>
 
 <!--
