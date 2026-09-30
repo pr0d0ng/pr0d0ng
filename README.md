@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:0284C7,100:38BDF8&height=220&section=header&text=Yeongdong%20Choi&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Data%20%26%20Quality%20Engineer%20%C2%B7%20Cloud%20Data%20%26%20AI&descSize=15&descAlignY=58&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:0284C7,100:38BDF8&height=220&section=header&text=Yeongdong%20Choi&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Data%20and%20Quality%20Engineer%20%C2%B7%20Cloud%20Data%20and%20AI&descSize=15&descAlignY=58&animation=fadeIn" width="100%"/>
 </p>
 
 <p align="center">
@@ -8,16 +8,6 @@
   <a href="https://github.com/pr0d0ng"><img src="https://img.shields.io/badge/GitHub-pr0d0ng-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
-# 💫 최영동 | Yeongdong Choi
-> **Data & Quality Engineer | AI & Cloud Data Engineering**  
-> *"데이터 파이프라인의 안정성부터 AI 모델의 현장 최적화까지, 엔드투엔드로 문제를 해결합니다."*
-
-[![GitHub](https://img.shields.io/badge/GitHub-pr0d0ng-181717?style=flat-square&logo=github)](https://github.com/pr0d0ng)
-[![Email](https://img.shields.io/badge/Email-cyd0303%40g.skku.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:cyd0303@g.skku.edu)
-[![Blog/Portfolio](https://img.shields.io/badge/Portfolio-Live_Demo-38BDF8?style=flat-square&logo=googlechrome&logoColor=white)](https://choiyeongdong-portfolio.netlify.app/)
-[![Location](https://img.shields.io/badge/Location-Suwon%2C%20Korea-blue?style=flat-square&logo=googlemaps&logoColor=white)](#)
-
----
 <!--
 ## 👨‍💻 About Me
 
