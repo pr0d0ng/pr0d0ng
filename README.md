@@ -4,7 +4,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-pr0d0ng-181717?style=flat-square&logo=github)](https://github.com/pr0d0ng)
 [![Email](https://img.shields.io/badge/Email-cyd0303%40g.skku.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:cyd0303@g.skku.edu)
-[![Blog/Portfolio](https://img.shields.io/badge/Portfolio-Live_Demo-38BDF8?style=flat-square&logo=googlechrome&logoColor=white)](https://pr0d0ng.github.io)
+[![Blog/Portfolio](https://img.shields.io/badge/Portfolio-Live_Demo-38BDF8?style=flat-square&logo=googlechrome&logoColor=white)]([https://pr0d0ng.github.io](https://choiyeongdong-portfolio.netlify.app/))
 [![Location](https://img.shields.io/badge/Location-Suwon%2C%20Korea-blue?style=flat-square&logo=googlemaps&logoColor=white)](#)
 
 ---
