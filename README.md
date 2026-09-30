@@ -2,6 +2,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:0284C7,100:38BDF8&height=220&section=header&text=Yeongdong%20Choi&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Data%20and%20Quality%20Engineer%20%C2%B7%20Cloud%20Data%20and%20AI&descSize=15&descAlignY=58&animation=fadeIn" width="100%"/>
 </p>
 
+> *"데이터 파이프라인의 안정성부터 AI 모델의 현장 최적화까지, 엔드투엔드로 문제를 해결합니다."*
+
 <p align="center">
   <a href="https://choiyeongdong-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Live_Demo-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
   <a href="mailto:cyd0303@g.skku.edu"><img src="https://img.shields.io/badge/Email-cyd0303@g.skku.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
