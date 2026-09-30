@@ -1,14 +1,24 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,50:0284C7,100:38BDF8&height=220&section=header&text=Yeongdong%20Choi&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Data%20%26%20Quality%20Engineer%20%C2%B7%20Cloud%20Data%20%26%20AI&descSize=15&descAlignY=58&animation=fadeIn" width="100%"/>
+</p>
+
+<p align="center">
+  <a href="https://choiyeongdong-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Live_Demo-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+  <a href="mailto:cyd0303@g.skku.edu"><img src="https://img.shields.io/badge/Email-cyd0303@g.skku.edu-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/pr0d0ng"><img src="https://img.shields.io/badge/GitHub-pr0d0ng-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
+
 # 💫 최영동 | Yeongdong Choi
 > **Data & Quality Engineer | AI & Cloud Data Engineering**  
 > *"데이터 파이프라인의 안정성부터 AI 모델의 현장 최적화까지, 엔드투엔드로 문제를 해결합니다."*
 
 [![GitHub](https://img.shields.io/badge/GitHub-pr0d0ng-181717?style=flat-square&logo=github)](https://github.com/pr0d0ng)
 [![Email](https://img.shields.io/badge/Email-cyd0303%40g.skku.edu-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:cyd0303@g.skku.edu)
-[![Blog/Portfolio](https://img.shields.io/badge/Portfolio-Live_Demo-38BDF8?style=flat-square&logo=googlechrome&logoColor=white)]([https://choiyeongdong-portfolio.netlify.app/])
+[![Blog/Portfolio](https://img.shields.io/badge/Portfolio-Live_Demo-38BDF8?style=flat-square&logo=googlechrome&logoColor=white)](https://choiyeongdong-portfolio.netlify.app/)
 [![Location](https://img.shields.io/badge/Location-Suwon%2C%20Korea-blue?style=flat-square&logo=googlemaps&logoColor=white)](#)
 
 ---
-
+<!--
 ## 👨‍💻 About Me
 
 - 🎓 **시스템경영공학(산업공학)** 학사 전공을 바탕으로 통계적 공정 관리(QC), 실험계획법(DOE), 정량적 최적화 감각을 체화했습니다.
@@ -17,7 +27,7 @@
 - 💡 단순 모델 스케일업보다 **도메인 문제에 적합한 데이터 전처리, 아키텍처 재설계, 엄밀한 통계 검증**을 통해 실질적인 엔지니어링 임팩트를 창출하는 데 몰입합니다.
 
 ---
-
+-->
 ## 🛠 Tech Stack
 
 ### Cloud & Data Engineering
@@ -122,12 +132,8 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pr0d0ng&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pr0d0ng&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
-</div>
-
-<div align="center">
-  <sub>Last updated: September 2026</sub>
+  <img src="https://streak-stats.demolab.com/?user=pr0d0ng&theme=tokyonight&hide_border=true" height="150" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pr0d0ng&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Languages" />
 </div>
 
 <!--
