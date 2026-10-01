@@ -51,7 +51,7 @@
 ### ☁️ Cloud & AI Engineering
 | 프로젝트 | 구분 / 기간 | 핵심 해결 과제 및 성과 | 기술 스택 | 링크 |
 | :--- | :---: | :--- | :--- | :---: |
-| **Qwen3-VL 한국어 VQA 최적화** | SSAFY 16기<br>`2026.09` | · Direct Logit Scoring으로 파싱 에러 0% 제거<br>· OCR BBox 영역 탐색기 전환 & Cyclic TTA<br>· **Kaggle Public Score 0.96127 달성** | `Qwen3-VL`<br>`PyTorch`<br>`EasyOCR`<br>`LoRA` | [Repo](https://github.com/pr0d0ng) |
+| **Qwen3-VL 한국어 VQA 최적화** | SSAFY 16기<br>`2026.09` | · Direct Logit Scoring으로 파싱 에러 0% 제거<br>· OCR BBox 영역 탐색기 전환 & Cyclic TTA<br>· **Kaggle Public Score 0.96127 달성** | `Qwen3-VL`<br>`PyTorch`<br>`EasyOCR`<br>`LoRA` | [Repo](https://github.com/pr0d0ng/AI-Challenge) |
 | **Gitjabi (지능형 IT 거버넌스)** | MS Data School<br>`2026.01 - 2026.02` | · 370p+ 비정형 지침서 지식 그래프(RAG) 자산화<br>· 분산 스트림 노드 ID 중앙 할당으로 데이터 정합성 100% 확보<br>· **MS Data School 2기 최우수상 수상 🏆** | `Databricks`<br>`Auto Loader`<br>`GPT-4o`<br>`FastAPI` | [Repo](https://github.com/pr0d0ng/GitJabi) |
 | **FacFLEXity (AI FEMS)** | MS Data School<br>`2025.12` | · 전력 소비 예측($R^2: 0.9259$) 및 AGV 예지보전(ViT)<br>· LangChain & Databricks 서빙 LLM 기반 공정 스케줄러<br>· FastAPI Asyncio 4대 장비 비차단 병렬 서빙 | `Databricks`<br>`LangChain`<br>`PyTorch`<br>`XGBoost` | [Repo](https://github.com/pr0d0ng/FacFLEXity-web) |
 | **실시간 반도체 결함 탐지** | MS Data School<br>`2025.11` | · Event Hubs & Stream Analytics 고처리량 스트리밍<br>· `GroupShuffleSplit` 적용으로 시계열 데이터 누수 원천 차단<br>· Logic Apps 무서버 Teams 실시간 알림 연동 | `Event Hubs`<br>`Stream Analytics`<br>`AKS`<br>`Logic Apps` | [Repo](https://github.com/pr0d0ng/azure-semicon) |
