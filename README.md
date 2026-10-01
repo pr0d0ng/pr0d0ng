@@ -60,7 +60,7 @@
 
 ---
 
-### 2. [Gitjabi: 지능형 IT 거버넌스 및 코드 인텔리전스 플랫폼](https://github.com/pr0d0ng)
+### 2. [Gitjabi: 지능형 IT 거버넌스 및 코드 인텔리전스 플랫폼](https://github.com/pr0d0ng/GitJabi)
 > **Microsoft Data School 2기 최종 프로젝트 (2026.01 - 2026.02) | 🏆 최우수상 수상**
 
 - **Key Problem**: 기술 의사결정 문서(PDF 370p+)와 실제 구현 코드 간 괴리로 인한 개발 리소스 및 컴플라이언스 검증 비용 낭비.
@@ -72,7 +72,7 @@
 
 ---
 
-### 3. [FacFLEXity: Azure 기반 AI FEMS 및 LLM 스케줄링 최적화](https://github.com/pr0d0ng)
+### 3. [FacFLEXity: Azure 기반 AI FEMS 및 LLM 스케줄링 최적화](https://github.com/pr0d0ng/FacFLEXity-web)
 > **Microsoft Data School (2025.12) | 실시간 전력 예측 & AGV 예지보전 & 공정 스케줄링**
 
 - **Key Problem**: 공장 내 피크 전력 부하로 인한 요금 급증 및 설비 돌발 정지(Down-time) 리스크 대응.
@@ -85,7 +85,7 @@
 
 ---
 
-### 4. [Azure 기반 실시간 반도체 결함 탐지 플랫폼](https://github.com/pr0d0ng)
+### 4. [Azure 기반 실시간 반도체 결함 탐지 플랫폼](https://github.com/pr0d0ng/azure-semicon)
 > **클라우드 센서 데이터 파이프라인 & 실시간 품질 관리 (2025.11)**
 
 - **Key Pipeline**: Azure Event Hubs ➔ Stream Analytics ➔ AKS 배포 XGBoost ➔ Logic Apps 무서버 Teams 실시간 경보.
