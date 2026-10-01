@@ -48,58 +48,19 @@
 
 ## 📌 Featured Projects
 
-### 1. [Qwen3-VL 기반 한국어 Scene-Text 객관식 VQA 성능 개선](https://github.com/pr0d0ng)
-> **SSAFY 16기 AI Challenge (2026.09) | Kaggle Public Score 0.96127 달성**
+### ☁️ Cloud & AI Engineering
+| 프로젝트 | 구분 / 기간 | 핵심 해결 과제 및 성과 | 기술 스택 | 링크 |
+| :--- | :---: | :--- | :--- | :---: |
+| **Qwen3-VL 한국어 VQA 최적화** | SSAFY 16기<br>`2026.09` | · Direct Logit Scoring으로 파싱 에러 0% 제거<br>· OCR BBox 영역 탐색기 전환 & Cyclic TTA<br>· **Kaggle Public Score 0.96127 달성** | `Qwen3-VL`<br>`PyTorch`<br>`EasyOCR`<br>`LoRA` | [Repo](https://github.com/pr0d0ng) |
+| **Gitjabi (지능형 IT 거버넌스)** | MS Data School<br>`2026.01 - 2026.02` | · 370p+ 비정형 지침서 지식 그래프(RAG) 자산화<br>· 분산 스트림 노드 ID 중앙 할당으로 데이터 정합성 100% 확보<br>· **MS Data School 2기 최우수상 수상 🏆** | `Databricks`<br>`Auto Loader`<br>`GPT-4o`<br>`FastAPI` | [Repo](https://github.com/pr0d0ng/GitJabi) |
+| **FacFLEXity (AI FEMS)** | MS Data School<br>`2025.12` | · 전력 소비 예측($R^2: 0.9259$) 및 AGV 예지보전(ViT)<br>· LangChain & Databricks 서빙 LLM 기반 공정 스케줄러<br>· FastAPI Asyncio 4대 장비 비차단 병렬 서빙 | `Databricks`<br>`LangChain`<br>`PyTorch`<br>`XGBoost` | [Repo](https://github.com/pr0d0ng/FacFLEXity-web) |
+| **실시간 반도체 결함 탐지** | MS Data School<br>`2025.11` | · Event Hubs & Stream Analytics 고처리량 스트리밍<br>· `GroupShuffleSplit` 적용으로 시계열 데이터 누수 원천 차단<br>· Logic Apps 무서버 Teams 실시간 알림 연동 | `Event Hubs`<br>`Stream Analytics`<br>`AKS`<br>`Logic Apps` | [Repo](https://github.com/pr0d0ng/azure-semicon) |
 
-- **Key Problem**: 베이스라인 모델(0.70점대) 및 단순 모델 스케일업(30B MoE: 0.95233) 시 미세 텍스트 판독 오인식 및 생성 형식 파싱 에러 발생.
-- **Engineering Solution**:
-  - **Direct Choice Logit Scoring & Answer-only Loss**: 불안정한 텍스트 생성 대신 선택지 로짓 직접 비교로 생성 오류 0% 제거 및 추론 가속화.
-  - **Question-Aware OCR Localization**: EasyOCR을 텍스트 입력기가 아닌 관심 영역 탐색기로 재정의, 질문 관련 BBox 크롭 이미지를 원본과 병렬 입력(`Multi-Image V3: 0.95918`).
-  - **Cyclic TTA & Vote-Switch**: 선택지 순환 추론으로 위치 편향을 제거하고, 2/3 합의 및 확신도 격차(≥0.08)를 충족하는 35개 난제만 정밀 보정.
-- **Tech**: `Qwen3-VL-8B`, `PyTorch`, `BF16 LoRA`, `EasyOCR`, `Direct Logit Scoring`, `Cyclic TTA`
-
----
-
-### 2. [Gitjabi: 지능형 IT 거버넌스 및 코드 인텔리전스 플랫폼](https://github.com/pr0d0ng/GitJabi)
-> **Microsoft Data School 2기 최종 프로젝트 (2026.01 - 2026.02) | 🏆 최우수상 수상**
-
-- **Key Problem**: 기술 의사결정 문서(PDF 370p+)와 실제 구현 코드 간 괴리로 인한 개발 리소스 및 컴플라이언스 검증 비용 낭비.
-- **Engineering Solution**:
-  - **Azure Databricks Auto Loader**: 비정형 지침 문서를 실시간 수집하여 지식 그래프 및 벡터 DB와 동기화하는 엔터프라이즈 파이프라인 구축.
-  - **Knowledge Graph RAG**: GPT-4o 기반 슬라이딩 윈도우 청킹 기법으로 정책 노드를 정형화하고 검색 노이즈 사전 필터링 적용.
-  - **트러블슈팅**: 분산 스트리밍 환경의 노드 ID 중복 충돌을 중앙 식별자 할당 로직으로 리팩토링하여 PostgreSQL과 AI Search 간 데이터 정합성 100% 확보.
-- **Tech**: `Azure Databricks`, `Auto Loader`, `GPT-4o`, `FastAPI`, `React`, `PostgreSQL`, `Azure AI Search/Language`
-
----
-
-### 3. [FacFLEXity: Azure 기반 AI FEMS 및 LLM 스케줄링 최적화](https://github.com/pr0d0ng/FacFLEXity-web)
-> **Microsoft Data School (2025.12) | 실시간 전력 예측 & AGV 예지보전 & 공정 스케줄링**
-
-- **Key Problem**: 공장 내 피크 전력 부하로 인한 요금 급증 및 설비 돌발 정지(Down-time) 리스크 대응.
-- **Engineering Solution**:
-  - **XGBoost 전력 소비 예측**: 전력 소비 패턴 예측 모델 구현 ($R^2: 0.9259$, 추론 지연시간 0.2903s).
-  - **ViT+MLP 멀티모달 PdM**: AGV 장비 상태 진단 멀티모달 예지보전 모델 구축.
-  - **LangChain & Databricks Serving LLM**: 실시간 예측 결과와 요금제를 연동하여 공정 가동 스케줄 자동 수립.
-  - **트러블슈팅**: FastAPI 비차단 비동기 병렬 추론 파이프라인 구성 및 PyTorch 대용량 텐서 메모리 청킹으로 GPU OOM 방지.
-- **Tech**: `Azure Databricks`, `LangChain`, `XGBoost`, `PyTorch (ViT+MLP)`, `FastAPI`, `Asyncio`
-
----
-
-### 4. [Azure 기반 실시간 반도체 결함 탐지 플랫폼](https://github.com/pr0d0ng/azure-semicon)
-> **클라우드 센서 데이터 파이프라인 & 실시간 품질 관리 (2025.11)**
-
-- **Key Pipeline**: Azure Event Hubs ➔ Stream Analytics ➔ AKS 배포 XGBoost ➔ Logic Apps 무서버 Teams 실시간 경보.
-- **트러블슈팅**: 센서 시계열 데이터 분할 시 발생하는 데이터 누수(Data Leakage)를 방지하기 위해 `GroupShuffleSplit` 기법을 엄격 적용하여 과적합 없는 일반화 신뢰도 확보.
-- **Tech**: `Event Hubs`, `Stream Analytics`, `AKS`, `XGBoost`, `Logic Apps`, `Power BI`
-
----
-
-### 5. [SBW 전자식 변속 버튼의 인간공학적 레이아웃 최적화](https://github.com/pr0d0ng)
-> **성균관대학교 시스템경영공학과 전공 연구 (2024.11 - 2024.12)**
-
-- **Engineering Solution**: JavaScript & Web Speech API 기반 밀리초(ms) 단위 조작 반응 시간 및 오류율 로깅 웹 툴 자체 개발.
-- **통계적 검증**: Two-way ANOVA (RCBD) 및 Tukey's HSD 사후 검증을 통해 수직형 레이아웃의 반응 시간 단축 효과 입증 ($p = 0.0569 < 0.1$).
-- **Tech**: `JavaScript`, `Web Speech API`, `Python`, `Two-way ANOVA`, `Tukey HSD`
+### ⚙️ Industrial & Systems Engineering
+| 프로젝트 | 구분 / 기간 | 핵심 해결 과제 및 성과 | 기술 스택 | 링크 |
+| :--- | :---: | :--- | :--- | :---: |
+| **SBW 전자식 변속 버튼 최적화** | 성균관대 연구<br>`2024.11 - 2024.12` | · JS & Web Speech API 밀리초(ms) 정밀 로깅 툴 자체 개발<br>· Two-way ANOVA (RCBD) 반응 시간 단축 검증 ($p = 0.0569$) | `JavaScript`<br>`Web Speech`<br>`Two-way ANOVA` | [Demo](https://choiyeongdong-portfolio.netlify.app/) |
+| **취약계층 IoT 세이프티 시스템** | 성균관대 연구<br>`2024.09 - 2024.12` | · 라즈베리 파이 센서 기반 비침해적 재실 데이터 수집<br>· Webhook 기반 서버 비용 0원의 경량 클라우드 파이프라인 구축 | `Python`<br>`Raspberry Pi`<br>`Webhooks` | [Demo](https://choiyeongdong-portfolio.netlify.app/) |
 
 ---
 
