@@ -73,7 +73,6 @@
 
 ### Honors & Awards
 - 🏆 **최우수상** - Microsoft Data School 2기 최종 프로젝트 *(Microsoft, 2026.02)*
-- 🥇 **Kaggle Public Score 0.96127 달성** - SSAFY 16기 AI Challenge *(2026.09)*
 
 ### Certifications
 - **Microsoft Certified: Azure Data Fundamentals** *(Microsoft, 2026.01)*
